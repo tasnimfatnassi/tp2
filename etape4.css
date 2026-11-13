@@ -1,0 +1,35 @@
+    .bouton{
+        display: inline-block;
+        text-decoration: none;
+    }
+    .carte{
+        position: relative;
+    }
+    .badge{
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        z-index: 1;
+    }
+    #entete{
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+    #haut{
+        position: fixed;
+        bottom: 40px ;
+        right: 10px ;
+    }
+    nav ul{
+        display: flex;
+        justify-content: center ;
+        gap: 24px;
+        padding: 0;
+        margin: 0;
+
+    }
+   .slogan{
+    visibility: hidden;
+   }
+

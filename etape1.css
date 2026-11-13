@@ -1,0 +1,33 @@
+#titre{
+    text-transform: uppercase;
+}
+h1,h2,h3{
+    font-family: Georgia;
+} 
+nav a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+.slogan{
+    font-style: italic;
+}
+.prix{
+    font-weight: bold;
+    color: red;
+}
+.promo {
+     font-weight: bold; }
+     
+h2::before{
+    content: "→";
+}
+a:hover{
+    color: orange;
+}
+input,textarea:focus{
+    outline: 4px solid blue;
+} nav li:first-child{
+    font-weight: bold;
+}

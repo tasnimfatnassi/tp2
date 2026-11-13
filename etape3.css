@@ -1,0 +1,49 @@
+:root{
+    --sable: #f6efe2;
+    --terre:#8a4b2a;
+    --menthe:#2f7d5b;
+    --nuit:#2b2118;
+}
+.hero{
+    background: linear-gradient(rgba(44,33,24,.6),rgba(44,33,24,.6)),url("images/hero.jpg") center/cover;
+color: white;}
+body{
+    background-color: var(--sable);
+    color:var(--nuit) ;
+    line-height: 1.6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1,h2,h3{
+    font-family: Georgia , serif;
+    color:var(--menthe);
+} 
+header{
+    background-color: var(--nuit);
+    color: var(--sable);
+}
+header h1{
+    color: var(--sable);
+}
+header a{
+    color: var(--sable);
+}
+.carte.promo{
+    background-color: #fff8e7;
+}
+.carte{
+    background-color: white;
+    transition: .3s;
+}
+.carte:hover{
+    transform: translateY(-4px);
+    box-shadow: 8px  8px red;
+}
+.bouton{
+    background-color: var(--menthe);
+    color: white;
+    transition: .3s;
+    
+}
+.bouton:hover{
+   background-color: var(--terre);
+}
